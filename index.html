@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Note Taking App</h1>
+    </header>
+    <main>
+        <form>
+            <label for="title">Title*</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="note">Note</label>
+            <textarea id="note" name="note"></textarea>
+
+            <button type="button" id="addNote">Add note</button>
+        </form>
+
+        <h2 id="notesHeading">No notes yet</h2>
+        <ul id="notesList"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
